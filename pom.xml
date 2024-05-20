@@ -147,6 +147,21 @@
 			</plugin>
 			
 </plugins>
+		<profiles>
+    <profile>
+        <id>productionQuality</id>
+        <properties>
+            <sonar.profile>productionQuality</sonar.profile>
+        </properties>
+    </profile>
+    <profile>
+        <id>SecurityChecks</id>
+        <properties>
+            <sonar.profile>SecurityChecks</sonar.profile>
+        </properties>
+    </profile>
+</profiles>
+
 	</build>
 	
 	
